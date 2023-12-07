@@ -1,0 +1,92 @@
+body {margin: 0;}
+
+.fullform-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.photo-container {
+	width: 34%;
+	min-height: 100vh; 
+	background-image: url("https://images.unsplash.com/photo-1595452588429-b52ca8701283?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=3204");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+.photo-overlay {
+	font-size: 36px;
+	font-weight: 300;
+	font-family: "Inria Serif";
+	color: whitesmoke;
+	margin-top: 33vh;
+}
+
+.form-container {
+	width: 46%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: x-large;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form input{
+	margin-bottom:2rem;
+	padding: 0.7rem;
+	border-radius: 0.15rem;
+	border: black 1px solid;
+}
+
+.form-title {
+	font-size: 50px;
+	font-weight: bold;
+	color: rgb(48, 47, 47);
+	font-family: "Inria Serif";
+	margin: 0;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.checkboxes {
+	font-size: medium;
+	margin-bottom: 0.5rem;
+
+}
+.checkboxes input {
+	margin: 8px;;
+}
+
+.submit-button:hover {
+	cursor: pointer;
+	background-color: rgb(130, 176, 130);
+}
+
+input[type=textarea] {
+	height: 40px;
+}
+
+#commentbox {
+	font-size: small;	
+	text-align: start;
+}
+
+@media only screen and (max-width: 1100px) {
+	.photo-overlay {
+		font-size: 20px;
+		}
+  }
+
+@media only screen and (max-width: 700px) {
+	.photo-overlay {
+		font-size: 15px;
+		}
+  }
